@@ -1,9 +1,9 @@
 === LouderVoice ===
 Contributors: johnbillion, conoro
-Tags: loudervoice, hreview, reviews, microformat
+Tags: loudervoice, hreview, review, microformats
 Requires at least: 2.0.3
 Tested up to: 2.7
-Stable tag: 2.1.2
+Stable tag: 2.1.3
 
 Allows you to easily insert correctly formatted LouderVoice reviews into your blog posts.
 
@@ -16,7 +16,7 @@ By using our plugin, your reviews are formatted using an open standard called hr
 1. Extract all files from the ZIP file, making sure to keep the file structure intact, and then upload it to /wp-content/plugins/ so that you end up with a structure like this:
 	- wp-content
 		- plugins
-			- loudervoice-hreview-writing-plugin
+			- loudervoice
 				| loudervoice.css
 				| loudervoice.end
 				| loudervoice.js
@@ -47,11 +47,11 @@ By using our plugin, your reviews are formatted using an open standard called hr
 
 = Can I edit my review once I've published it? =
 
-Yes! Just edit your post in the normal manner and you'll be able to make changes to any part of your review from the post writing screen.
+Yes. Just edit your post in the normal manner and you'll be able to make changes to any part of your review from the post writing screen.
 
 = Does this plugin support multiple authors on one blog? =
 
-Yes! Each user can go to the Settings -> LouderVoice Settings menu and enter their own LouderVoice username. Note that the tag setting on that page is a global setting, however.
+Yes. Each user can go to the Settings -> LouderVoice Settings menu and enter their own LouderVoice username. Note that the tag setting on that page is a global setting, however.
 
 = I have another question that isn't answered here =
 
