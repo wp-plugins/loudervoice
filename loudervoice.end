@@ -2,11 +2,11 @@
 /*
 Plugin Name: LouderVoice
 Description: Allows you to easily insert correctly formatted LouderVoice reviews into your blog posts. [&nbsp;<a href="options-general.php?page=loudervoice">Settings</a>&nbsp;&bull;&nbsp;<a href="../wp-content/plugins/loudervoice/readme.txt">Readme</a>&nbsp;]
-Version:     2.1
+Version:     2.2
 Author:      LouderVoice
 Plugin URI:  http://www.loudervoice.com/extras/
 Author URI:  http://www.loudervoice.com/
-Copyright:   2007-2009 Argolon Solutions Limited t/a LouderVoice
+Copyright:   2007-2010 Argolon Solutions Limited t/a LouderVoice
 
 	Built for LouderVoice by John Blackbourn [johnblackbourn.com]
 
@@ -31,7 +31,7 @@ class LouderVoice {
 	function LouderVoice() {
 		$this->plugin = array(
 			'path'    => '' . WP_PLUGIN_URL . '/' . basename( dirname( __FILE__ ) ),
-			'version' => '2.1'
+			'version' => '2.2'
 		);
 
 		if ( $this->is( 'post.php' ) or
@@ -271,7 +271,9 @@ class LouderVoice {
 		if ( isset( $_GET['post'] ) ) {
 			$post = (int) $_GET['post'];
 			$is_review = get_post_meta( $post, 'review-status', true );
+			$is_review = ( $is_review or ( 'on' == $is_review ) ) ? true : false;
 			$has_vcard = get_post_meta( $post, 'review-vcard', true );
+			$has_vcard = ( $has_vcard or ( 'on' == $has_vcard ) ) ? true : false;
 		}
 		ob_start();
 		?>

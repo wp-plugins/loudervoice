@@ -1,9 +1,9 @@
 === LouderVoice ===
 Contributors: johnbillion, conoro
 Tags: loudervoice, hreview, review, microformats
-Requires at least: 2.0.3
-Tested up to: 2.7
-Stable tag: 2.1.3
+Requires at least: 2.6
+Tested up to: 2.9.9
+Stable tag: 2.2
 
 Allows you to easily insert correctly formatted LouderVoice reviews into your blog posts.
 
@@ -56,3 +56,8 @@ Yes. Each user can go to the Settings -> LouderVoice Settings menu and enter the
 = I have another question that isn't answered here =
 
 Ask all your questions on our section of Get Satisfaction at http://getsatisfaction.com/loudervoice
+
+== Changelog ==
+
+= 2.2 =
+* Complete compatibility with WordPress 2.9
