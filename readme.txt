@@ -3,7 +3,7 @@ Contributors: conoro
 Tags: loudervoice, reviews, hreview, microformats, rich-snippets
 Requires at least: 3.0
 Tested up to: 3.3.1
-Stable tag: 2.24
+Stable tag: 2.5
 
 Accept and Display LouderVoice Reviews on your site.
 
@@ -71,3 +71,6 @@ Further details and a full instruction manual are available from support@louderv
 
 = 2.24 =
 * Reduced WP version requirement to v3.0
+
+= 2.5 =
+* Version problem now fixed
