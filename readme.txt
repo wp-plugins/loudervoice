@@ -1,63 +1,79 @@
-=== LouderVoice ===
-Contributors: johnbillion, conoro
-Tags: loudervoice, hreview, review, microformats
-Requires at least: 2.6
-Tested up to: 2.9.9
-Stable tag: 2.2
+=== LouderVoice Reviews ===
+Contributors: conoro
+Tags: loudervoice, reviews, hreview, microformats, rich-snippets
+Requires at least: 3.0
+Tested up to: 3.3.2
+Stable tag: 2.51
 
-Allows you to easily insert correctly formatted LouderVoice reviews into your blog posts.
+Accept and Display LouderVoice Reviews on your site.
 
 == Description ==
 
-By using our plugin, your reviews are formatted using an open standard called hreview. This is a widely used approach to identifying the important parts of your review so that they can be interpreted correctly by a variety of websites. By using hreview you now have entirely portable reviews.
+This plugin enables LouderVoice clients to quickly and easily display customer reviews on their WordPress site.
 
 == Installation ==
 
-1. Extract all files from the ZIP file, making sure to keep the file structure intact, and then upload it to /wp-content/plugins/ so that you end up with a structure like this:
-	- wp-content
-		- plugins
-			- loudervoice
-				| loudervoice.css
-				| loudervoice.end
-				| loudervoice.js
-				| loudervoice.php
-				| readme.txt
-				| reviewform.php
-				- images 
-					| 0outof5.gif
-					| 1outof5.gif
-					| 2outof5.gif
-					| 3outof5.gif
-					| 4outof5.gif
-					| 5outof5.gif
-					| loudervoice.png
-2. If you'd prefer to have the itemname and stars at the end of the blog post along with the other hreview metadata, then replace loudervoice.php with loudervoice.end					
-2. Activate the LouderVoice plugin through the 'Plugins' menu in WordPress.
-3. Go to the Settings -> LouderVoice menu and enter your LouderVoice username.
+Upload the LouderVoice plugin to your site and activate it. 
 
-== Usage ==
+Go to Settings -> LouderVoice Settings and add your LouderVoice API key, Facebook App ID, and LouderVoice CSS Directory. 
+LouderVoice will give you these it you don't already have them. 
 
-1. First, make sure you've set up your LouderVoice username by going to the Settings -> LouderVoice Settings menu in WordPress.
-2. To write a review, go to the Write -> Post menu and click the 'This is a review' checkbox at the top.
-3. Some additional fields will appear which allow you to insert all your review information, such as the item name, URL and rating.
-4. Your blog post will form the main body of your review.
-5. If you wish to include location information (for example the address of a restaurant), click the 'Include location information' checkbox and enter the details in the relevant fields.
+Then create a new page on your site where you wish to display reviews and tick the "Enable Reviews" box. Decide on the basic options presented and finally decide if you want opening reviewing on that page or you want a separate private review-writing page which you invite people to.
 
-== Frequently Asked Questions ==
-
-= Can I edit my review once I've published it? =
-
-Yes. Just edit your post in the normal manner and you'll be able to make changes to any part of your review from the post writing screen.
-
-= Does this plugin support multiple authors on one blog? =
-
-Yes. Each user can go to the Settings -> LouderVoice Settings menu and enter their own LouderVoice username. Note that the tag setting on that page is a global setting, however.
-
-= I have another question that isn't answered here =
-
-Ask all your questions on our section of Get Satisfaction at http://getsatisfaction.com/loudervoice
+Further details and a full instruction manual are available from support@loudervoice.com
 
 == Changelog ==
 
-= 2.2 =
-* Complete compatibility with WordPress 2.9
+= 0.3 = 
+* Initial release
+
+= 0.31 = 
+* Removed some breaking test code
+
+= 0.32 = 
+* Fixed layout issues
+
+= 0.33 =
+* Plugin can now indicate that it needs to be updated in WordPress Admin
+
+= 0.34 =
+* First public release
+
+= 0.35 =
+* Fix for error about language files on certain hosts using PHP safe mode
+
+= 0.36 =
+* Fix for small tags glitch if no default tags set
+
+= 0.37 =
+* Fix for warning which may be displayed if DEBUG enabled
+
+= 0.38 =
+* Improved Review-Writing Page setup. Fix for small tags issue
+
+= 0.39 =
+* Added per-page override for language to facilitate multi-lingual sites
+
+= 0.4 =
+* Small fix to allow item name to be changed in two-page setups
+
+= 0.41 =
+* Use Amazon CDN for improved performance
+
+= 1.00 =
+* Some localisation improvements
+
+= 1.10 =
+* Lots of localisation improvements including taglines
+
+= 2.23 =
+* Big version bump to avoid confusion with old LouderVoice plugin on WordPress Plugin Repository site
+
+= 2.24 =
+* Reduced WP version requirement to v3.0
+
+= 2.5 =
+* Version problem now fixed
+
+= 2.51 =
+* Removed en_IE, de_CH and fr_CH langauge variations due to Facebook issue. Will re-enable soon.
