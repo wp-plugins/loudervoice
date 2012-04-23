@@ -2,8 +2,8 @@
 Contributors: conoro
 Tags: loudervoice, reviews, hreview, microformats, rich-snippets
 Requires at least: 3.0
-Tested up to: 3.3.1
-Stable tag: 2.5
+Tested up to: 3.3.2
+Stable tag: 2.51
 
 Accept and Display LouderVoice Reviews on your site.
 
@@ -74,3 +74,6 @@ Further details and a full instruction manual are available from support@louderv
 
 = 2.5 =
 * Version problem now fixed
+
+= 2.51 =
+* Removed en_IE, de_CH and fr_CH langauge variations due to Facebook issue. Will re-enable soon.
