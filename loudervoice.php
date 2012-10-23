@@ -4,7 +4,7 @@ Plugin Name: LouderVoice Reviews
 Plugin URI: http://www.loudervoice.com
 Description: Display reviews on your pages or posts
 Author: LouderVoice
-Version: 2.51
+Version: 2.52
 Author URI: http://www.loudervoice.com/ 
  
 

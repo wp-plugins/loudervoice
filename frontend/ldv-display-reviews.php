@@ -222,6 +222,7 @@ function ldv_get_display_script( $apiHtmlReviews, $args ){
                                                 allowAnonymous: true,
                                                 defaultAnonymousName: "LouderVoice Reviewer", 
                                                 lv_receiver: "'. LDV_PLUGIN_LOCATION . 'frontend/lv_receiver_apiupg.htm",
+                                                tweetThis: true,
                                                 facebookLike: true,
                                                 facebook: {
                                                     appid: "'. $args['fbAppId'] . '",

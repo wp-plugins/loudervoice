@@ -2,8 +2,8 @@
 Contributors: conoro
 Tags: loudervoice, reviews, hreview, microformats, rich-snippets
 Requires at least: 3.0
-Tested up to: 3.3.2
-Stable tag: 2.51
+Tested up to: 3.4.2
+Stable tag: 2.52
 
 Accept and Display LouderVoice Reviews on your site.
 
@@ -15,7 +15,7 @@ This plugin enables LouderVoice clients to quickly and easily display customer r
 
 Upload the LouderVoice plugin to your site and activate it. 
 
-Go to Settings -> LouderVoice Settings and add your LouderVoice API key, Facebook App ID, and LouderVoice CSS Directory. 
+Go to Settings -> LouderVoice Settings and add your LouderVoice API key, Facebook App ID, and LouderVoice CSS URL. 
 LouderVoice will give you these it you don't already have them. 
 
 Then create a new page on your site where you wish to display reviews and tick the "Enable Reviews" box. Decide on the basic options presented and finally decide if you want opening reviewing on that page or you want a separate private review-writing page which you invite people to.
@@ -76,4 +76,7 @@ Further details and a full instruction manual are available from support@louderv
 * Version problem now fixed
 
 = 2.51 =
-* Removed en_IE, de_CH and fr_CH langauge variations due to Facebook issue. Will re-enable soon.
+* Removed en_IE, de_CH and fr_CH langauge variations due to Facebook issue.
+
+= 2.52 =
+* Added TweetThis button to all reviews.

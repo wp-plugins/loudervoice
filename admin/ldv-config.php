@@ -92,7 +92,7 @@ if ( ! class_exists( 'LDV_Admin' ) ) {
             <!-- CSS Dir     -->                                
                                 <tr valign="top">
                                     <th scope="row">
-                                        <?php _e('CSS Directory', 'ldv-reviews'); ?>
+                                        <?php _e('CSS URL', 'ldv-reviews'); ?>
                                     </th>          
                                     <td>
                                         <input size="60" name="ldv_css_dir" type="text" value="<?php echo get_option('ldv_css_dir'); ?>" />                                        
