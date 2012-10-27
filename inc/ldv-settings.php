@@ -107,67 +107,67 @@ if ( ! class_exists( 'LDV_Settings' ) ) {
                                         'en_US'   => array(
                                             'title'           => 'Write your review',
                                             'post_content'    => 'We love hearing from our customers and we\'d love to hear from you too. Please enter your review below',
-                                            'display_credit'  => 'Powered by <a href="http://www.loudervoice.com/">LouderVoice Reviews</a> and <a href="http://www.louderyou.com/">LouderYou</a>'
+                                            'display_credit'  => 'Powered by <a href="http://www.loudervoice.com/" target="_blank">LouderVoice Reviews</a> and <a href="http://www.louderyou.com/" target="_blank">LouderYou</a>'
                                         ),
                                         'en_GB'   => array(
                                             'title'           => 'Write your review',
                                             'post_content'    => 'We love hearing from our customers and we\'d love to hear from you too. Please enter your review below',
-                                            'display_credit'  => 'Powered by <a href="http://www.loudervoice.com/">LouderVoice Reviews</a> and <a href="http://louderyou.co.uk/">LouderYou UK</a>'
+                                            'display_credit'  => 'Powered by <a href="http://www.loudervoice.com/" target="_blank">LouderVoice Reviews</a> and <a href="http://louderyou.co.uk/" target="_blank">LouderYou UK</a>'
                                         ),
                                         'en_IE'   => array(
                                             'title'           => 'Write your review',
                                             'post_content'    => 'We love hearing from our customers and we\'d love to hear from you too. Please enter your review below',
-                                            'display_credit'  => 'Powered by <a href="http://www.loudervoice.com/">LouderVoice Reviews</a> and <a href="http://www.louderyou.ie/">LouderYou Ireland</a>'
+                                            'display_credit'  => 'Powered by <a href="http://www.loudervoice.com/" target="_blank">LouderVoice Reviews</a> and <a href="http://www.louderyou.ie/" target="_blank">LouderYou Ireland</a>'
                                         ),
                                         'fr_FR'   => array(
                                             'title'           => 'Écrire votre avis',
                                             'post_content'    => 'Votre opinion en tant que client nous intéresse énormément. S\'il vous plait, écrivez votre avis ci-dessous',
-                                            'display_credit'  => '<a href="http://www.loudervoice.com/">LouderVoice</a> et <a href="http://www.louderyou.fr/">LouderYou</a>'
+                                            'display_credit'  => '<a href="http://www.loudervoice.com/" target="_blank">LouderVoice</a> et <a href="http://www.louderyou.fr/" target="_blank">LouderYou</a>'
                                         ),
                                         'fr_CH'   => array(
                                             'title'           => 'Écrire votre avis',
                                             'post_content'    => 'Votre opinion en tant que client nous intéresse énormément. S\'il vous plait, écrivez votre avis ci-dessous',
-                                            'display_credit'  => '<a href="http://www.loudervoice.com/">LouderVoice</a> et <a href="http://www.louderyou.ch/">LouderYou</a>'
+                                            'display_credit'  => '<a href="http://www.loudervoice.com/" target="_blank">LouderVoice</a> et <a href="http://www.louderyou.ch/" target="_blank">LouderYou</a>'
                                         ),
                                         'fr_CA'   => array(
                                             'title'           => 'Écrire votre avis',
                                             'post_content'    => 'Votre opinion en tant que client nous intéresse énormément. S\'il vous plait, écrivez votre avis ci-dessous',
-                                            'display_credit'  => '<a href="http://www.loudervoice.com/">LouderVoice</a> et <a href="http://www.louderyou.com/">LouderYou</a>'
+                                            'display_credit'  => '<a href="http://www.loudervoice.com/" target="_blank">LouderVoice</a> et <a href="http://www.louderyou.com/" target="_blank">LouderYou</a>'
                                         ),
                                         'es_ES'   => array(
                                             'title'           => 'Escribe tu opinión',
                                             'post_content'    => 'Nos encanta escuchar a nuestros clientes y nos encantaría saber de usted también. Por favor, introduzca sus comentarios a continuación',
-                                            'display_credit'  => '<a href="http://www.loudervoice.com/">LouderVoice</a> y <a href="http://www.louderyou.es/">LouderYou</a>'
+                                            'display_credit'  => '<a href="http://www.loudervoice.com/" target="_blank">LouderVoice</a> y <a href="http://www.louderyou.es/" target="_blank">LouderYou</a>'
                                         ),
                                         'es_MX'   => array(
                                             'title'           => 'Escribe tu opinión',
                                             'post_content'    => 'Nos encanta escuchar a nuestros clientes y nos encantaría saber de usted también. Por favor, introduzca sus comentarios a continuación',
-                                            'display_credit'  => '<a href="http://www.loudervoice.com/">LouderVoice</a> y <a href="http://www.louderyou.com/">LouderYou</a>'
+                                            'display_credit'  => '<a href="http://www.loudervoice.com/" target="_blank">LouderVoice</a> y <a href="http://www.louderyou.com/" target="_blank">LouderYou</a>'
                                         ),
                                         'it_IT'   => array(
                                             'title'           => 'Scrivi tua recensione',
                                             'post_content'    => 'Ci piace sentire dai nostri clienti e ci piacerebbe sentire anche da te. Inserisci il tuo recensioni qui sotto',
-                                            'display_credit'  => '<a href="http://www.loudervoice.com/">LouderVoice</a> e <a href="http://www.louderyou.it/">LouderYou</a>'
+                                            'display_credit'  => '<a href="http://www.loudervoice.com/" target="_blank">LouderVoice</a> e <a href="http://www.louderyou.it/" target="_blank">LouderYou</a>'
                                         ),
                                         'de_DE'   => array(
                                             'title'           => 'Eine meinung schreiben',
                                             'post_content'    => 'Wir hören gerne von unseren Kunden und wir würden uns freuen von Ihnen zu hören auch. Bitte geben Sie Ihren Beitrag unten',
-                                            'display_credit'  => '<a href="http://www.loudervoice.com/">LouderVoice</a> und <a href="http://www.louderyou.de/">LouderYou</a>'
+                                            'display_credit'  => '<a href="http://www.loudervoice.com/" target="_blank">LouderVoice</a> und <a href="http://www.louderyou.de/" target="_blank">LouderYou</a>'
                                         ),
                                         'de_CH'   => array(
                                             'title'           => 'Eine meinung schreiben',
                                             'post_content'    => 'Wir hören gerne von unseren Kunden und wir würden uns freuen von Ihnen zu hören auch. Bitte geben Sie Ihren Beitrag unten',
-                                            'display_credit'  => '<a href="http://www.loudervoice.com/">LouderVoice</a> und <a href="http://www.louderyou.ch/">LouderYou</a>'
+                                            'display_credit'  => '<a href="http://www.loudervoice.com/" target="_blank">LouderVoice</a> und <a href="http://www.louderyou.ch/" target="_blank">LouderYou</a>'
                                         ),
                                         'ru_RU'   => array(
                                             'title'           => 'Напишите ваш отзыв',
                                             'post_content'    => 'Мы любим слышать от наших клиентов, и мы хотели бы услышать от вас. Пожалуйста, введите свой ​​отзыв',
-                                            'display_credit'  => '<a href="http://www.loudervoice.com/">LouderVoice</a> and <a href="http://www.louderyou.com/">LouderYou</a>'
+                                            'display_credit'  => '<a href="http://www.loudervoice.com/" target="_blank">LouderVoice</a> and <a href="http://www.louderyou.com/" target="_blank">LouderYou</a>'
                                         ),
                                         'pt_PT'    => array(
                                             'title'           => 'Escreva seu comentário',
                                             'post_content'    => 'Nós adoramos ouvir de nossos clientes e nós adoraríamos ouvir de você também. Digite seu comentário abaixo',
-                                            'display_credit'  => '<a href="http://www.loudervoice.com/">LouderVoice</a> and <a href="http://www.louderyou.com/">LouderYou</a>'
+                                            'display_credit'  => '<a href="http://www.loudervoice.com/" target="_blank">LouderVoice</a> and <a href="http://www.louderyou.com/" target="_blank">LouderYou</a>'
                                         )                
                                     );
             
