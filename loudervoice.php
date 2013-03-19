@@ -4,11 +4,11 @@ Plugin Name: LouderVoice Reviews
 Plugin URI: http://www.loudervoice.com
 Description: Display reviews on your pages or posts
 Author: LouderVoice
-Version: 2.53
+Version: 2.54
 Author URI: http://www.loudervoice.com/ 
  
 
-Copyright 2012  LouderVoice (email : info@loudervoice.com)
+Copyright 2012-2013  LouderVoice (email : info@loudervoice.com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as 
@@ -30,7 +30,7 @@ if ( !function_exists( 'add_action' ) ) {
 	echo "Not much happening here. Sorry ;)";
 	exit;
 }
-define( 'LDV', '2.5' );
+define( 'LDV', '2.54' );
 $pluginurl = plugin_dir_url(__FILE__);
 if ( preg_match( '/^https/', $pluginurl ) && !preg_match( '/^https/', get_bloginfo('url') ) )
 	$pluginurl = preg_replace( '/^https/', 'http', $pluginurl );
