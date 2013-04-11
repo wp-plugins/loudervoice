@@ -86,3 +86,6 @@ Further details and a full instruction manual are available from support@louderv
 
 = 2.54 =
 * Fix one of the footer links
+
+= 2.55 =
+* Integrated in a new rich-snippets Average Score Sidebar Widget and a Random Review Sidebar Widget
