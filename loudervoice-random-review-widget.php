@@ -2,8 +2,8 @@
 /*
 Plugin Name: LouderVoice Random
 Plugin URI: http://www.loudervoice.com
-Description: A WordPress Widget to show a single 4*/5* random review from your latest reviews
-Version: 2.57
+Description: A WordPress Widget to show a single 4/5 star random review from your latest reviews
+Version: 2.59
 Author: LouderVoice
 Author URI: http://www.loudervoice.com
 */
@@ -13,7 +13,7 @@ if (!class_exists("loudervoice_random_multi")) {
 	class loudervoice_random_multi extends WP_Widget {
  
 		function loudervoice_random_multi() {
-			$widget_ops = array('classname' => 'loudervoice_random_multi', 'description' => 'Shows a single 4*/5* random review from your latest LouderVoice reviews' );
+			$widget_ops = array('classname' => 'loudervoice_random_multi', 'description' => 'Shows a single 4/5 star random review from your latest LouderVoice reviews' );
 			$this->WP_Widget('ldv_random', 'LouderVoice Random', $widget_ops);
 
             $set1 = $this->get_settings();
