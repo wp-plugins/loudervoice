@@ -112,7 +112,7 @@ if ( ! class_exists( 'LDV_Settings' ) ) {
                                         'en_GB'   => array(
                                             'title'           => 'Write your review',
                                             'post_content'    => 'We love hearing from our customers and we\'d love to hear from you too. Please enter your review below',
-                                            'display_credit'  => 'Powered by <a href="http://www.loudervoice.com/" target="_blank">LouderVoice Reviews</a> and <a href="http://louderyou.co.uk/" target="_blank">LouderYou UK</a>'
+                                            'display_credit'  => 'Powered by <a href="http://loudervoice.co.uk/" target="_blank">LouderVoice UK Reviews</a>'
                                         ),
                                         'en_IE'   => array(
                                             'title'           => 'Write your review',
@@ -122,7 +122,7 @@ if ( ! class_exists( 'LDV_Settings' ) ) {
                                         'fr_FR'   => array(
                                             'title'           => 'Écrire votre avis',
                                             'post_content'    => 'Votre opinion en tant que client nous intéresse énormément. S\'il vous plait, écrivez votre avis ci-dessous',
-                                            'display_credit'  => '<a href="http://www.loudervoice.com/" target="_blank">LouderVoice</a> et <a href="http://www.louderyou.fr/" target="_blank">LouderYou</a>'
+                                            'display_credit'  => '<a href="http://fr.loudervoice.com/" target="_blank">LouderVoice France</a>'
                                         ),
                                         'fr_CH'   => array(
                                             'title'           => 'Écrire votre avis',
