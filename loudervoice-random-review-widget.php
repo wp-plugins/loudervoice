@@ -3,7 +3,7 @@
 Plugin Name: LouderVoice Random
 Plugin URI: http://www.loudervoice.com
 Description: Shows a single random review from your latest reviews
-Version: 2.55
+Version: 2.56
 Author: LouderVoice
 Author URI: http://www.loudervoice.com
 */
