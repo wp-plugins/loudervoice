@@ -3,7 +3,7 @@
   Plugin Name: LouderVoice Average Rating
   Plugin URI: http://www.loudervoice.com
   Description: A WordPress Widget to show your average review score and review count from LouderVoice.
-  Version: 2.56
+  Version: 2.57
   Author: LouderVoice
   Author URI: http://www.loudervoice.com
 */

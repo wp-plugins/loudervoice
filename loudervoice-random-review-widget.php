@@ -2,8 +2,8 @@
 /*
 Plugin Name: LouderVoice Random
 Plugin URI: http://www.loudervoice.com
-Description: Shows a single random review from your latest reviews
-Version: 2.56
+Description: A WordPress Widget to show a single 4*/5* random review from your latest reviews
+Version: 2.57
 Author: LouderVoice
 Author URI: http://www.loudervoice.com
 */
@@ -89,7 +89,7 @@ if (!class_exists("loudervoice_random_multi")) {
         }
         $details = $details." ..... ";
         $random_review .= '<div class="ldv-random-description">'. $details.'</div>';
-        $random_review .= '<div class="ldv-random-readmore"><a href="'.$review["itemurl"].'#ldv-review-'.$review["id"].'">Read More</a></div>';
+        $random_review .= '<div class="ldv-random-readmore"><a href="'.$review["itemurl"].'#lv-review-'.$review["id"].'">Read More</a></div>';
 
         echo $random_review;
             echo $after_widget;
