@@ -4,7 +4,7 @@ Plugin Name: LouderVoice Reviews
 Plugin URI: http://www.loudervoice.com
 Description: Display reviews on your pages or posts
 Author: LouderVoice
-Version: 2.59
+Version: 2.60
 Author URI: http://www.loudervoice.com/ 
  
 
@@ -30,7 +30,7 @@ if ( !function_exists( 'add_action' ) ) {
 	echo "Not much happening here. Sorry ;)";
 	exit;
 }
-define( 'LDV', '2.59' );
+define( 'LDV', '2.60' );
 $pluginurl = plugin_dir_url(__FILE__);
 if ( preg_match( '/^https/', $pluginurl ) && !preg_match( '/^https/', get_bloginfo('url') ) )
 	$pluginurl = preg_replace( '/^https/', 'http', $pluginurl );

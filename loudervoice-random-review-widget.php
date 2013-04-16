@@ -3,7 +3,7 @@
 Plugin Name: LouderVoice Random
 Plugin URI: http://www.loudervoice.com
 Description: A WordPress Widget to show a single 4/5 star random review from your latest reviews
-Version: 2.59
+Version: 2.60
 Author: LouderVoice
 Author URI: http://www.loudervoice.com
 */
@@ -75,25 +75,27 @@ if (!class_exists("loudervoice_random_multi")) {
 			}
         }
         
-        $review = $arrFeeds[array_rand($arrFeeds, 1)];
-        $scaledscore = (float)(round($review["rating"]*2))/2;
-        $starsurl = $ldv_image_path."newstars-small".number_format((((float)round($review["rating"]*2))/2),1).".png";
+        if (!empty($arrFeeds)){
+            $review = $arrFeeds[array_rand($arrFeeds, 1)];
+            $scaledscore = (float)(round($review["rating"]*2))/2;
+            $starsurl = $ldv_image_path."newstars-small".number_format((((float)round($review["rating"]*2))/2),1).".png";
 
-        $random_review .= '<div class="ldv-random-author"> from '.$review["name"].'</div>';
-        $random_review .= '<img class="ldv-random-star" src="'.$starsurl.'" / >';
-        $details = strip_tags($review["description"]);
-        if(strlen($review["description"])> $maxlen){
-            $details = substr($details,0, $maxlen);
-            $i = strrpos($details," ");
-            $details = substr($details,0,$i);
-        }
-        $details = $details." ..... ";
-        $random_review .= '<div class="ldv-random-description">'. $details.'</div>';
-        $random_review .= '<div class="ldv-random-readmore"><a href="'.$review["itemurl"].'#lv-review-'.$review["id"].'">Read More</a></div>';
+            $random_review .= '<div class="ldv-random-author"> from '.$review["name"].'</div>';
+            $random_review .= '<img class="ldv-random-star" src="'.$starsurl.'" / >';
+            $details = strip_tags($review["description"]);
+            if(strlen($review["description"])> $maxlen){
+                $details = substr($details,0, $maxlen);
+                $i = strrpos($details," ");
+                $details = substr($details,0,$i);
+            }
+            $details = $details." ..... ";
+            $random_review .= '<div class="ldv-random-description">'. $details.'</div>';
+            $random_review .= '<div class="ldv-random-readmore"><a href="'.$review["itemurl"].'#lv-review-'.$review["id"].'">Read More</a></div>';
 
-        echo $random_review;
+            echo $random_review;
             echo $after_widget;
-		}
+        }
+	}
  
 		function update($new_instance, $old_instance) {
 			$instance = $old_instance;
