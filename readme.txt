@@ -2,8 +2,8 @@
 Contributors: conoro
 Tags: loudervoice, reviews, hreview, microformats, rich-snippets
 Requires at least: 3.0
-Tested up to: 3.5.1
-Stable tag: 2.61
+Tested up to: 3.6.1
+Stable tag: 2.62
 
 Accept and Display LouderVoice Reviews on your site.
 
@@ -104,3 +104,6 @@ Show nothing in random review widget if site has no reviews yet
 
 = 2.61 =
 Bug in last release which caused some styling problems. Now fixed.
+
+= 2.62 =
+Changes "count" to "votes" in Average Score Widget

@@ -2,8 +2,8 @@
 Contributors: conoro
 Tags: loudervoice, reviews, hreview, microformats, rich-snippets
 Requires at least: 3.0
-Tested up to: 3.5.1
-Stable tag: 2.55
+Tested up to: 3.6.1
+Stable tag: 2.62
 
 A WordPress Widget to show your average review score and review count from LouderVoice.
 
@@ -27,3 +27,6 @@ Further details and a full instruction manual are available from support@louderv
 
 = 2.55 =
 * Have to make all version numbers the same to avoid problems.
+
+= 2.62 =
+Changes "count" to "votes" in Average Score Widget

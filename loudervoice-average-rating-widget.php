@@ -3,7 +3,7 @@
   Plugin Name: LouderVoice Average Rating
   Plugin URI: http://www.loudervoice.com
   Description: A WordPress Widget to show your average review score and review count from LouderVoice.
-  Version: 2.61
+  Version: 2.62
   Author: LouderVoice
   Author URI: http://www.loudervoice.com
 */
@@ -74,7 +74,7 @@ if (!class_exists("loudervoice_average_multi")) {
       $average_score_html .= '<meta itemprop="best" content="5" />';
       $average_score_html .= '</span>'; 
       $average_score_html .= '<div class="ldv-avg-star-count"><img class="ldv-avg-star" src="'.$starsurl.'" / >';
-      $average_score_html .= '<span class="ldv-avg-count" itemprop="count"> ';
+      $average_score_html .= '<span class="ldv-avg-count" itemprop="votes"> ';
       $average_score_html .= '<abbr title="'.round($avg_rating,2).'/5">';
       $average_score_html .= $num_reviews;
       $average_score_html .= ' reviews';

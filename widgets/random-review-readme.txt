@@ -1,9 +1,9 @@
 === Plugin Name ===
 Contributors: conoro
 Tags: reviews, customer reviews, hreview, rich snippets, loudervoice
-Requires at least: 2.9
-Tested up to: 3.5.1
-Stable tag: 2.55
+Requires at least: 3.0
+Tested up to: 3.6.1
+Stable tag: 2.62
 
 LouderVoice customers can use this plugin to add a random reviews widget to their sidebar(s).
 
@@ -30,3 +30,6 @@ e.g.
 
 = 2.55 =
 * Have to make all version numbers the same to avoid problems.
+
+= 2.62 =
+Changes "count" to "votes" in Average Score Widget
