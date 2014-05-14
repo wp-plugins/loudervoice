@@ -32,7 +32,7 @@ class LDV_Api{
         }   
 
         $url = $this->apiUrl . $key .'/?limit='.$limit. '&offset='.$offset. '&itemurl='.$itemurl;
-        $response = wp_remote_get($url); 
+        $response = wp_remote_get($url, array('sslverify' => false)); 
         
         if(!is_wp_error( $response )){
             return $response['body'];

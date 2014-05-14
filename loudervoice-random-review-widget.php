@@ -3,7 +3,7 @@
 Plugin Name: LouderVoice Random
 Plugin URI: http://www.loudervoice.com
 Description: A WordPress Widget to show a single 4/5 star random review from your latest reviews
-Version: 2.62
+Version: 2.63
 Author: LouderVoice
 Author URI: http://www.loudervoice.com
 */
@@ -53,8 +53,9 @@ if (!class_exists("loudervoice_random_multi")) {
         }
   
         $customer_reviews = 'http://api.loudervoice.com/v1/'.$customer_key.'/reviews/recent/?p=1&pp=20';
+        $response = wp_remote_get($customer_reviews, array('sslverify' => false)); 
         $doc = new DOMDocument();
-        $doc->load($customer_reviews);
+        $doc->loadXML($response['body']);
 
         $num_reviews = $doc->getElementsByTagName('count')->item(0)->nodeValue;
         $pages = $doc->getElementsByTagName('pages')->item(0)->nodeValue;
