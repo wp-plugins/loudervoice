@@ -5,9 +5,9 @@ $plugin_slug = basename(dirname(__FILE__));
 
 
 // Take over the update check
-add_filter('pre_set_site_transient_update_plugins', 'check_for_plugin_update');
+add_filter('pre_set_site_transient_update_plugins', 'lv_check_for_plugin_update');
 
-function check_for_plugin_update($checked_data) {
+function lv_check_for_plugin_update($checked_data) {
 	global $api_url, $plugin_slug;
 	
 	if (empty($checked_data->checked))
@@ -18,7 +18,7 @@ function check_for_plugin_update($checked_data) {
 		'version' => $checked_data->checked[$plugin_slug .'/'. $plugin_slug .'.php'],
 	);
 	
-	$request_string = prepare_request('basic_check', $request_args);
+	$request_string = lv_prepare_request('basic_check', $request_args);
 	
 	// Start checking for an update
 	$raw_response = wp_remote_post($api_url, $request_string);
@@ -34,9 +34,9 @@ function check_for_plugin_update($checked_data) {
 
 
 // Take over the Plugin info screen
-add_filter('plugins_api', 'my_plugin_api_call', 10, 3);
+add_filter('plugins_api', 'lv_plugin_api_call', 10, 3);
 
-function my_plugin_api_call($def, $action, $args) {
+function lv_plugin_api_call($def, $action, $args) {
 	global $plugin_slug, $api_url;
 	
 	if ($args->slug != $plugin_slug)
@@ -47,7 +47,7 @@ function my_plugin_api_call($def, $action, $args) {
 	$current_version = $plugin_info->checked[$plugin_slug .'/'. $plugin_slug .'.php'];
 	$args->version = $current_version;
 	
-	$request_string = prepare_request($action, $args);
+	$request_string = lv_prepare_request($action, $args);
 	
 	$request = wp_remote_post($api_url, $request_string);
 	
@@ -64,7 +64,7 @@ function my_plugin_api_call($def, $action, $args) {
 }
 
 
-function prepare_request($action, $args) {
+function lv_prepare_request($action, $args) {
 	global $wp_version;
 	
 	return array(
